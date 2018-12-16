@@ -117,20 +117,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\bchain\Block.h" />
-    <ClInclude Include="..\..\..\..\Documents\bchain\Blockchain.h" />
-    <ClInclude Include="..\..\..\..\Documents\bchain\Data.h" />
-    <ClInclude Include="..\..\..\..\Documents\bchain\Miner.h" />
-    <ClInclude Include="..\..\..\..\Documents\bchain\picosha2.h" />
-    <ClInclude Include="..\..\..\..\Documents\bchain\SimpleData.h" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="blockchain.cpp" />
+    <ClCompile Include="data.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="miner.cpp" />
+    <ClCompile Include="simpledata.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\bchain\Block.cpp" />
-    <ClCompile Include="..\..\..\..\Documents\bchain\Blockchain.cpp" />
-    <ClCompile Include="..\..\..\..\Documents\bchain\Data.cpp" />
-    <ClCompile Include="..\..\..\..\Documents\bchain\Main.cpp" />
-    <ClCompile Include="..\..\..\..\Documents\bchain\Miner.cpp" />
-    <ClCompile Include="..\..\..\..\Documents\bchain\SimpleData.cpp" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="blockchain.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="miner.h" />
+    <ClInclude Include="picosha2.h" />
+    <ClInclude Include="simpledata.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
