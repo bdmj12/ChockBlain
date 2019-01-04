@@ -23,6 +23,8 @@ bld/
 [Ll]og/
 
 #VS files
+Base.vcxproj
+Base.vcxproj.filters
 *.vcxproj
 *.vcxproj.filters
 *.sln
